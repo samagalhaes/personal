@@ -5,8 +5,8 @@ widget = "publications"
 active = true
 date = 2016-04-20
 
-title = "Recent Publications"
-subtitle = ""
+title = "Trabalhos FEUP"
+subtitle = "Trabalhos realizados ao longo do curso"
 
 # Order that this section will appear in.
 weight = 20

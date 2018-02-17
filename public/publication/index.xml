@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Academic</title>
+    <title>Publications on SAMAGALHAES</title>
     <link>/publication/</link>
-    <description>Recent content in Publications on Academic</description>
+    <description>Recent content in Publications on SAMAGALHAES</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <language>pt-pt</language>
+    <copyright>&amp;copy; Sandro Magalhães 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>/publication/person-re-identification/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <title>Cronómetro em Arduino</title>
+      <link>/publication/chronometer/</link>
+      <pubDate>Fri, 18 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/person-re-identification/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <guid>/publication/chronometer/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Mobile visual clothing search</title>
-      <link>/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <title>Medição de Massa (Balança)</title>
+      <link>/publication/load-cell-scale/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <guid>/publication/load-cell-scale/</guid>
+      <description>No âmbito da unidade curricular de medição, sensores e instrumentação, proposemo-nos à elaboração de uma cadeia de medição para a construção de uma balança cuja mensuranda será a massa.
+Para iniciar este projecto foi-nos disponibilizada a escolha entre uma régua para medir a massa ou uma célula de carga – tendo nós escolhido a segunda opção, que já estava devidamente montada com os quatro extensómetros e respectivas conexões.
+Além do circuito de aquisição e condicionamento do sinal que deverá ser feito de forma analógica, todo o resto do projecto deverá ser implementado no software LabView que fornece todas as ferramentas de cálculo e funções para o posterior tratamento do sinal digital para o qual será convertido através de uma placa de aquisição montada ao computador das bancada do laboratório.</description>
     </item>
     
   </channel>

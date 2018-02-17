@@ -6,11 +6,11 @@
 baseurl = "/"
 
 # Title of your site
-title = "Academic"
+title = "SAMAGALHAES"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "&copy; Sandro Magalhães 2018"
 
 theme = "academic"
 enableEmoji = true
@@ -23,10 +23,10 @@ paginate = 10
 disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-79882245-1"
 
 # Default language to use (if you setup multilingual support)
-defaultContentLanguage = "en"
+defaultContentLanguage = "pt"
 defaultContentLanguageInSubdir = false
 
 [outputs]
@@ -50,20 +50,20 @@ defaultContentLanguageInSubdir = false
   font = "default"
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Sandro Magalhães"
+  role = "Estudante de Mestrado"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "Faculdade de Engenharia da Universidade do Porto", url = "http://fe.up.pt" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  email = "sandro.magalhaes@fe.up.pt"
+  address = "Vila Nova de Gaia, Porto, Portugal"
+  office_hours = ""
+  phone = "+351 912 054 696"
+  skype = ""
   telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -91,18 +91,19 @@ defaultContentLanguageInSubdir = false
   #   0: No map
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
-  #   3: OpenStreetMap (Mapbox)
-  map = 0
-  map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
-  zoom = 15
+  #   3: OpenStreetMap (Mapbox)[Languages.en]
+
+  map = 1
+  map_api_key = " AIzaSyAvKc7CnQ_XlYVMRHy5A11HEtgTU6fZMk4 "
+  latitude = "41.1782693"
+  longitude = "-8.5954227"
+  zoom = 17
 
   # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "Jan 2, 2006"
+  date_format = "Monday, 2 January 2006"
   #   Examples: "3:04 pm" or "15:04"
-  time_format = "3:04 PM"
+  time_format = "15:04"
 
   # Show estimated reading time for posts?
   reading_time = true
@@ -115,7 +116,7 @@ defaultContentLanguageInSubdir = false
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = false
+  math = true
 
   # Highlight.js options
   #   highlight
@@ -130,7 +131,8 @@ defaultContentLanguageInSubdir = false
   #     can also set this variable for a particular page in that
   #     page's preamble.
   #
-  #     Example: highlight_languages = ["go", "lisp", "ocaml"]
+  #     Example: highlight_languages = ["go", "lisp", "ocaml"][Languages.en]
+
   #
   #   highlight_style
   #     Choose a different CSS style for highlighting source
@@ -146,7 +148,7 @@ defaultContentLanguageInSubdir = false
   #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
   highlight = true
   highlight_languages = []
-  # highlight_style = "github"
+  highlight_style = "github"
 
   # Enable native social sharing buttons?
   sharing = true
@@ -170,8 +172,10 @@ defaultContentLanguageInSubdir = false
     'Manuscript',  # 3
     'Report',  # 4
     'Book',  # 5
-    'Book section'  # 6
+    'Book section',  # 6
+    'Thesis' # 7
   ]
+
 
   # Configuration of talk pages.
   [params.talks]
@@ -217,22 +221,22 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "mailto:sandro.magalhaes@fe.up.pt"
 
   [[params.social]]
-    icon = "twitter"
+    icon = "linkedin"
     icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    link = "https://www.linkedin.com/in/sandromagalhaes/"
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "https://scholar.google.pt/citations?hl=pt-PT&view_op=list_works&gmla=AJsN-F7ZbVQUE4EIleJXyjW0RD0UaeubNaq_YytdQhssNd13YLP7IG0P5MlvJRFoQq1SAKLL4D5F7wNMCqomtILbkWi5lLt5ql_Z4wmpWcf-L5vfhun_x5o&user=9_xVRdwAAAAJ"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "//github.com/samagalhaes"
 
 
 # Navigation Links
@@ -244,34 +248,24 @@ defaultContentLanguageInSubdir = false
   align_right = true
 
 [[menu.main]]
-  name = "Home"
+  name = "Página Inicial"
   url = "#about"
   weight = 1
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
+  name = "Trabalhos FEUP"
+  url = "#publications"
   weight = 2
 
 [[menu.main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Blog"
+  url = "http://blog.samagalhaes.ml"
   weight = 3
 
 [[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 4
-
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 5
-
-[[menu.main]]
-  name = "Contact"
+  name = "Contactos"
   url = "#contact"
-  weight = 6
+  weight = 4
 
 # Taxonomies.
 [taxonomies]
@@ -283,5 +277,5 @@ defaultContentLanguageInSubdir = false
 #   Create a [languages.X] block for each language you want, where X is the language ID.
 
 # Configure the English version of the website.
-[Languages.en]
-  languageCode = "en-us"
+[Languages.pt]
+  languageCode = "pt-pt"

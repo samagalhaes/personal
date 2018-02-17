@@ -2,31 +2,36 @@
 # About/Biography widget.
 widget = "about"
 active = true
-date = "2016-04-20T00:00:00"
+date = "2018-02-04T21:57:00"
 
 # Order that this section will appear in.
-weight = 5
+weight = 1
 
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Robótica",
+    "Controlo",
+    "Sistemas de Visão",
+    "Inteligência Artificial"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Master degree in Electrical and Computers Engineering - Automation"
-  institution = "Faculty of Engineering of University of Porto"
-  year = "2013-current"
+  course = "Mestrado Integrado em Engenharia Eletrotécnica e de Computadores"
+  institution = "Faculdade de Engenharia da Universidade do Porto"
+  year = "2013-atual"
 
 +++
 
-# Biography
+# Biografia
 
-Hi! My full name is Sandro Augusto Costa Magalhães and I born in July of 1995 in Porto, Portugal.
+O meu nome completo é Sandro Augusto Costa Magalhães e nasci em Julho de 1995 no Porto.
 
-In 2013, I get in master integrated degree in Electrical and Computers Engineering at Engineering Faculty of Porto University (FEUP). At now, I'm a finalist in automation area of this course, specializing myself in Robotics and Systems.
+Em 2013, ingressei no mestrado integrado em Engenharia Eletrotécnica e de Computadores na Faculdade de engenharia da Universidade do Porto (FEUP). Atualmente sou finalista no ramo de Automação a especializar-me em Robótica e Sistemas.
 
-I have special interest in robotic systems, mainly in control and artificial intelligence.
+Durante todo o meu percurso académico, tive a oportunidade de participar em algumas competições organizadas pelo BEST (Board of European Students of Technologies), como o LEC (Local Engineering Competition) e o EBEC (European BEST Engineering Competition). Fui ainda líder de equipa na unidade curricular de SEAI (Sistemas de Enginharia - Automação e Instrumentação) onde tivemos como objetivo desenvolver um sistema que fosse capaz de fazer a Gestão de Activos de uma Subestação ligada à rede.
+
+Atualmente estou a desenvolver a minha tese na equipa de futebol robótico 5DPO FEUP/INESC TEC que tem como tema Controlo de trajetórias de um robô móvel de alto desempenho.
+
+Paralelamente, ainda possuo alguns interesses como o escutismo, onde fui guia de equipa por diversos anos, coordenador do Cenáculo local e representante no Cenáculo Nacional. Tenho ainda um particular interesse por fotografia e a magia que esta arte consegue fazer.
