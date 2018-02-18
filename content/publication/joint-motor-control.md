@@ -14,7 +14,7 @@ authors = ["Carlos Almeida", "Sandro Magalhães", "Telmo Costa"]
 # 4 = Technical report
 # 5 = Book
 # 6 = Book chapter
-publication_types = ["3"]
+publication_types = ["4"]
 
 # Publication name and optional abbreviated version.
 publication = "In *Robótica Industrial*, FEUP."
