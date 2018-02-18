@@ -1,9 +1,9 @@
 +++
-title = "Sistema de distribuição de correspondência"
-date = "2017-06-02"
+title = "Implementação de rotinas básicas de controlo do movimento de um robô submarino"
+date = "2017-12-16"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Carlos Almeida", "Sandro Magalhães", "Sérgio Fernandes", "Telmo Costa", "Tiago Mendonça"]
+authors = ["Sandro Magalhães", "Tiago Mendonça"]
 
 # Publication type.
 # Legend:
@@ -17,11 +17,11 @@ authors = ["Carlos Almeida", "Sandro Magalhães", "Sérgio Fernandes", "Telmo Co
 publication_types = ["4"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Sistemas de Apoio à Decisão*, FEUP."
-publication_short = "In *SADE - FEUP*"
+publication = "In *Sistemas Robóticos Autónomos*, FEUP."
+publication_short = "In *SRAU - FEUP*"
 
 # Abstract and optional shortened version.
-abstract = "Tendo esta análise em mente, pretendemos desenvolver um projeto que nos permita obter uma solução ativa para um problema SAD. Consideramos para análise um problema típico de distribuição de correspondência numa estação de correios, que vamos formular na próxima secção."
+abstract = "Este trabalho prático, pretende-se desenvolver um sistema de controlo que seja capaz de movimentar o submarino ao longo de uma trajetória pré-definida. Para este efeito, recorrer-se-á ao software de simulação SimTwo, utilizando um meio subaquático e um modelo do robô MARES."
 abstract_short = ""
 
 # Featured image thumbnail (optional)
@@ -36,9 +36,9 @@ selected = false
 #projects = ["deep-learning"]
 
 # Links (optional).
-url_pdf = "files/pt/feup/sade/report_knapsack.pdf"
+url_pdf = "files/pt/feup/srau/TP4/TP4_SRAU_Sandro_Tiago.pdf"
 #url_preprint = ""
-url_code = ""
+url_code = "files/pt/feup/srau/TP4/code.pas"
 #url_dataset = ""
 #url_project = ""
 url_slides = ""
@@ -48,7 +48,8 @@ url_slides = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Sigarra FEUP", url = "https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=385646"}]
+url_custom = [{name = "Sigarra FEUP", url = "https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=401695"},
+              {name = "SimTwo", url = "https://paginas.fe.up.pt/~paco/wiki/index.php?n=Main.SimTwo"}]
 
 # Does the content use math formatting?
 math = true
