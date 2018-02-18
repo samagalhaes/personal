@@ -2,29 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SAMAGALHAES on SAMAGALHAES</title>
-    <link>/</link>
+    <link>https://web.fe.up.pt/~up201304932/hugo/</link>
     <description>Recent content in SAMAGALHAES on SAMAGALHAES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-pt</language>
     <copyright>&amp;copy; Sandro Magalhães 2018</copyright>
     <lastBuildDate>Sun, 04 Feb 2018 21:57:00 +0000</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <atom:link href="/~up201304932/hugo/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Leitura de código de barras</title>
+      <link>https://web.fe.up.pt/~up201304932/hugo/publication/barcode/</link>
+      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://web.fe.up.pt/~up201304932/hugo/publication/barcode/</guid>
+      <description>&lt;p&gt;O objetivo do trabalho prendia-se com a leitura de um código de barras com recurso aos fundamentos teóricos subjacentes às técnicas de processamento de imagem e fazendo uso das ferramentas disponibilizadas pela Image Processing Toolbox do MatLab.&lt;/p&gt;
+
+&lt;p&gt;O processamento da imagem contemplou várias fases. Realizaram-se operações de pré-processamento no sentido de a suavizar, procedeu-se à sua reorientação, fez-se uso de técnicas de segmentação, isolando as regiões mais relevantes, e, por fim, descodificaram-se as barras extraídas.&lt;/p&gt;
+
+&lt;p&gt;Finalmente, os resultados obtidos permitiram validar o algoritmo implementado, constatando-se que a descodificação era total para grande parte das imagens utilizadas com ângulo de inclinação situado entre −90 e +90.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cronómetro em Arduino</title>
-      <link>/publication/chronometer/</link>
+      <link>https://web.fe.up.pt/~up201304932/hugo/publication/chronometer/</link>
       <pubDate>Fri, 18 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/chronometer/</guid>
+      <guid>https://web.fe.up.pt/~up201304932/hugo/publication/chronometer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Medição de Massa (Balança)</title>
-      <link>/publication/load-cell-scale/</link>
+      <link>https://web.fe.up.pt/~up201304932/hugo/publication/load-cell-scale/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/load-cell-scale/</guid>
+      <guid>https://web.fe.up.pt/~up201304932/hugo/publication/load-cell-scale/</guid>
       <description>&lt;p&gt;No âmbito da unidade curricular de medição, sensores e instrumentação, proposemo-nos à elaboração de uma cadeia de medição para a construção de uma balança cuja mensuranda será a massa.&lt;/p&gt;
 
 &lt;p&gt;Para iniciar este projecto foi-nos disponibilizada a escolha entre uma régua para medir a massa ou uma célula de carga – tendo nós escolhido a segunda opção, que já estava devidamente montada com os quatro extensómetros e respectivas conexões.&lt;/p&gt;

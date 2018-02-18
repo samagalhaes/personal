@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on SAMAGALHAES</title>
-    <link>/home/</link>
+    <link>https://web.fe.up.pt/~up201304932/hugo/home/</link>
     <description>Recent content in Homes on SAMAGALHAES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-pt</language>
     <copyright>&amp;copy; Sandro Magalhães 2018</copyright>
     <lastBuildDate>Sun, 04 Feb 2018 21:57:00 +0000</lastBuildDate>
     
-	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://web.fe.up.pt/~up201304932/hugo/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/home/about/</link>
+      <link>https://web.fe.up.pt/~up201304932/hugo/home/about/</link>
       <pubDate>Sun, 04 Feb 2018 21:57:00 +0000</pubDate>
       
-      <guid>/home/about/</guid>
+      <guid>https://web.fe.up.pt/~up201304932/hugo/home/about/</guid>
       <description>Biografia O meu nome completo é Sandro Augusto Costa Magalhães e nasci em Julho de 1995 no Porto.
 Em 2013, ingressei no mestrado integrado em Engenharia Eletrotécnica e de Computadores na Faculdade de engenharia da Universidade do Porto (FEUP). Atualmente sou finalista no ramo de Automação a especializar-me em Robótica e Sistemas.
 Durante todo o meu percurso académico, tive a oportunidade de participar em algumas competições organizadas pelo BEST (Board of European Students of Technologies), como o LEC (Local Engineering Competition) e o EBEC (European BEST Engineering Competition).</description>
@@ -25,19 +25,19 @@ Durante todo o meu percurso académico, tive a oportunidade de participar em alg
     
     <item>
       <title>Trabalhos FEUP</title>
-      <link>/home/publications/</link>
+      <link>https://web.fe.up.pt/~up201304932/hugo/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
       
-      <guid>/home/publications/</guid>
+      <guid>https://web.fe.up.pt/~up201304932/hugo/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contactos</title>
-      <link>/home/contact/</link>
+      <link>https://web.fe.up.pt/~up201304932/hugo/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/contact/</guid>
+      <guid>https://web.fe.up.pt/~up201304932/hugo/home/contact/</guid>
       <description></description>
     </item>
     
