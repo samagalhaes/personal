@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>https://web.fe.up.pt/~up201304932/hugo/publication/joint-motor-control/</loc>
+      <lastmod>2017-05-09T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://web.fe.up.pt/~up201304932/hugo/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -43,6 +52,16 @@
     
       <loc>https://web.fe.up.pt/~up201304932/hugo/publication_types/2/</loc>
       <lastmod>2016-12-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://web.fe.up.pt/~up201304932/hugo/publication_types/3/</loc>
+      <lastmod>2017-05-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

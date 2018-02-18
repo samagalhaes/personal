@@ -1,6 +1,6 @@
 +++
 title = "Joint motor control"
-date = "2016-12-15"
+date = "2017-05-09"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Carlos Almeida", "Sandro Magalhães", "Telmo Costa"]
@@ -21,10 +21,7 @@ publication = "In *Robótica Industrial*, FEUP."
 publication_short = "In *RIND - FEUP*"
 
 # Abstract and optional shortened version.
-abstract = "Pretende-se desenvolver um sistema de controlo PID em cascata em malha fechada para um motor
-Joint.
-Para tal começa-se por se analisar e modelar o sistema, para, iterativamente implementar as
-diferentes componentes do PID e analisar o seu comportamento, melhorando os parâmteros."
+abstract = "Pretende-se desenvolver um sistema de controlo PID em cascata em malha fechada para um motor Joint. Para tal começa-se por se analisar e modelar o sistema, para, iterativamente implementar as diferentes componentes do PID e analisar o seu comportamento, melhorando os parâmteros."
 abstract_short = "Controlo de um motor baseado num controlador PID."
 
 # Featured image thumbnail (optional)

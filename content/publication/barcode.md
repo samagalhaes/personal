@@ -36,12 +36,12 @@ selected = false
 #projects = ["deep-learning"]
 
 # Links (optional).
-url_pdf = "/files/pt/feup/sbvi/report.pdf"
+url_pdf = "files/pt/feup/sbvi/report.pdf"
 #url_preprint = ""
 url_code = "https://github.com/samagalhaes/Barcode-Scanner"
 #url_dataset = ""
 #url_project = ""
-url_slides = "/files/pt/feup/sbvi/slides.pdf"
+url_slides = "files/pt/feup/sbvi/slides.pdf"
 #url_video = ""
 #url_poster = ""
 #url_source = ""
