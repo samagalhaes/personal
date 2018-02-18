@@ -3,7 +3,7 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://web.fe.up.pt/~up201304932/hugo/"
 
 # Title of your site
 title = "SAMAGALHAES"
@@ -51,7 +51,7 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Sandro Magalhães"
-  role = "Estudante de Mestrado"
+  role = "Estudante de Engenharia Eletrotécnica e de Computadores - Automação"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
