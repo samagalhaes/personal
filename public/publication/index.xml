@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on SAMAGALHAES</title>
+    <title>Trabalhos FEUP on SAMAGALHAES</title>
     <link>https://web.fe.up.pt/~up201304932/hugo/publication/</link>
-    <description>Recent content in Publications on SAMAGALHAES</description>
+    <description>Recent content in Trabalhos FEUP on SAMAGALHAES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-pt</language>
     <copyright>&amp;copy; Sandro Magalhães 2018</copyright>
@@ -11,6 +11,70 @@
     
 	<atom:link href="https://web.fe.up.pt/~up201304932/hugo/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Localização de robôs móveis baseados em balizas</title>
+      <link>https://web.fe.up.pt/~up201304932/hugo/publication/balizas/</link>
+      <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://web.fe.up.pt/~up201304932/hugo/publication/balizas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação de rotinas básicas de controlo do movimento de um robô submarino</title>
+      <link>https://web.fe.up.pt/~up201304932/hugo/publication/submarino/</link>
+      <pubDate>Sat, 16 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://web.fe.up.pt/~up201304932/hugo/publication/submarino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Localização de Robôs Móveis Baseada em Marcos</title>
+      <link>https://web.fe.up.pt/~up201304932/hugo/publication/robolego/</link>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://web.fe.up.pt/~up201304932/hugo/publication/robolego/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação de rotinas básicas de controlo do movimento de um robô (FollowLine)</title>
+      <link>https://web.fe.up.pt/~up201304932/hugo/publication/followline/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://web.fe.up.pt/~up201304932/hugo/publication/followline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação de rotinas básicas de controlo do movimento de um robô (GoToXYTheta)</title>
+      <link>https://web.fe.up.pt/~up201304932/hugo/publication/gotoxytheta/</link>
+      <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://web.fe.up.pt/~up201304932/hugo/publication/gotoxytheta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Odometria e equações de movimento de um robô</title>
+      <link>https://web.fe.up.pt/~up201304932/hugo/publication/odometria/</link>
+      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://web.fe.up.pt/~up201304932/hugo/publication/odometria/</guid>
+      <description>Este relatório surge no âmbito do trabalho prático para a unidade curricular de Sistemas Robóticos Autónomos, realizado em sala de aula no dia 27 de setembro de 2017, que teve como principal intuito incentivar os estudantes a estudar o comportamento de uma robot de tração diferencial com duas rodas e calcular alguns parâmetros das características inerentes.
+Como ambiente de trabalho para a realização do exercício, recorreu-se ao simulador SimTwo que disponibiliza um modelo do robot supra indicado.</description>
+    </item>
+    
+    <item>
+      <title>Sistema de distribuição de correspondência</title>
+      <link>https://web.fe.up.pt/~up201304932/hugo/publication/knapsack/</link>
+      <pubDate>Fri, 02 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://web.fe.up.pt/~up201304932/hugo/publication/knapsack/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Joint motor control</title>
@@ -29,15 +93,6 @@
       <guid>https://web.fe.up.pt/~up201304932/hugo/publication/barcode/</guid>
       <description>O objetivo do trabalho prendia-se com a leitura de um código de barras com recurso aos fundamentos teóricos subjacentes às técnicas de processamento de imagem e fazendo uso das ferramentas disponibilizadas pela Image Processing Toolbox do MatLab.
 O processamento da imagem contemplou várias fases. Realizaram-se operações de pré-processamento no sentido de a suavizar, procedeu-se à sua reorientação, fez-se uso de técnicas de segmentação, isolando as regiões mais relevantes, e, por fim, descodificaram-se as barras extraídas.</description>
-    </item>
-    
-    <item>
-      <title>Sistema de distribuição de correspondência</title>
-      <link>https://web.fe.up.pt/~up201304932/hugo/publication/knapsack/</link>
-      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://web.fe.up.pt/~up201304932/hugo/publication/knapsack/</guid>
-      <description></description>
     </item>
     
     <item>

@@ -11,6 +11,94 @@
     <atom:link href="/~up201304932/hugo/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Localização de robôs móveis baseados em balizas</title>
+      <link>https://web.fe.up.pt/~up201304932/hugo/publication/balizas/</link>
+      <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://web.fe.up.pt/~up201304932/hugo/publication/balizas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação de rotinas básicas de controlo do movimento de um robô submarino</title>
+      <link>https://web.fe.up.pt/~up201304932/hugo/publication/submarino/</link>
+      <pubDate>Sat, 16 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://web.fe.up.pt/~up201304932/hugo/publication/submarino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Localização de Robôs Móveis Baseada em Marcos</title>
+      <link>https://web.fe.up.pt/~up201304932/hugo/publication/robolego/</link>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://web.fe.up.pt/~up201304932/hugo/publication/robolego/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação de rotinas básicas de controlo do movimento de um robô (FollowLine)</title>
+      <link>https://web.fe.up.pt/~up201304932/hugo/publication/followline/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://web.fe.up.pt/~up201304932/hugo/publication/followline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação de rotinas básicas de controlo do movimento de um robô (GoToXYTheta)</title>
+      <link>https://web.fe.up.pt/~up201304932/hugo/publication/gotoxytheta/</link>
+      <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://web.fe.up.pt/~up201304932/hugo/publication/gotoxytheta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Odometria e equações de movimento de um robô</title>
+      <link>https://web.fe.up.pt/~up201304932/hugo/publication/odometria/</link>
+      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://web.fe.up.pt/~up201304932/hugo/publication/odometria/</guid>
+      <description>&lt;p&gt;Este relatório surge no âmbito do trabalho prático para a unidade curricular de Sistemas
+Robóticos Autónomos, realizado em sala de aula no dia 27 de setembro de 2017, que teve como
+principal intuito incentivar os estudantes a estudar o comportamento de uma robot de tração
+diferencial com duas rodas e calcular alguns parâmetros das características inerentes.&lt;/p&gt;
+
+&lt;p&gt;Como ambiente de trabalho para a realização do exercício, recorreu-se ao simulador
+SimTwo que disponibiliza um modelo do robot supra indicado. Este desloca-se num plano
+horizontal intermédio de duas rodas motrizes diferenciais e com uma terceira roda livre de
+apoio.&lt;/p&gt;
+
+&lt;p&gt;Como ponto de partida, teve-se em consideração as equações base que permitem o
+controlo da velocidade linear ($v$) e velocidade angular ($\omega$), por controlo da velocidade dos
+motores de cada roda ($v_1$ e $v_2$ ).&lt;/p&gt;
+
+&lt;p&gt;$$
+    \begin{equation}
+        v &amp;amp;= \dfrac{v_1 + v_2}{2} &lt;br /&gt;
+    \end{equation}
+$$&lt;/p&gt;
+
+&lt;p&gt;$$
+    \begin{equation}
+        \omega &amp;amp;= \dfrac{v_1 - v_2}{2 \cdot b}&lt;br /&gt;
+    \end{equation}
+$$&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sistema de distribuição de correspondência</title>
+      <link>https://web.fe.up.pt/~up201304932/hugo/publication/knapsack/</link>
+      <pubDate>Fri, 02 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://web.fe.up.pt/~up201304932/hugo/publication/knapsack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Joint motor control</title>
       <link>https://web.fe.up.pt/~up201304932/hugo/publication/joint-motor-control/</link>
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
@@ -31,15 +119,6 @@
 
 &lt;p&gt;Finalmente, os resultados obtidos permitiram validar o algoritmo implementado, constatando-se que a descodificação era total para grande parte das imagens utilizadas com ângulo de inclinação situado entre −90 e +90.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Sistema de distribuição de correspondência</title>
-      <link>https://web.fe.up.pt/~up201304932/hugo/publication/knapsack/</link>
-      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://web.fe.up.pt/~up201304932/hugo/publication/knapsack/</guid>
-      <description></description>
     </item>
     
     <item>

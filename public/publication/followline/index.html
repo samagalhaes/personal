@@ -17,10 +17,10 @@
       
     
   
-  <meta name="description" content="Tendo esta análise em mente, pretendemos desenvolver um projeto que nos permita obter uma solução ativa para um problema SAD. Consideramos para análise um problema típico de distribuição de correspondência numa estação de correios, que vamos formular na próxima secção.">
+  <meta name="description" content="No presente trabalho prático pretende-se que um robot móvel de tração diferencial seja capaz de seguir um segmento de reta, definido pelos seus pontos inicial e final, e que termine o seu movimento no ponto final estabelecido, com uma orientação equivalente à da reta. Para o efeito, em primeiro lugar, o objetivo consiste em aproximar o veículo ao ponto mais próximo da linha definida e, quando suficientemente próximo desta, iniciar o seu seguimento em sentido conveniente para atingir o ponto final. Posto isto, impõe-se a necessidade de implementação de dois controladores distintos: controlador para aproximação (Controlador A) e, posteriormente, comutação para controlador de seguimento (Controlador B). Estes controladores podem ser assumidos como dois estados distintos de uma máquina de estados, em que as transições são determinadas em função da distância ao ponto mais próximo da reta. A sua supervisão é conseguida com a implementação de um terceiro procedimento responsável pela comutação entre estados (FollowLine), estando, por isso, num nível hierarquicamente superior. Como premissa adicional do problema considera-se que o robot está sempre localizado entre os limites impostos pelos extremos do segmento.">
 
   
-  <link rel="alternate" hreflang="pt-pt" href="https://web.fe.up.pt/~up201304932/hugo/publication/knapsack/">
+  <link rel="alternate" hreflang="pt-pt" href="https://web.fe.up.pt/~up201304932/hugo/publication/followline/">
 
   
 
@@ -79,24 +79,24 @@
   <link rel="icon" type="image/png" href="/~up201304932/hugo/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/~up201304932/hugo/img/icon-192.png">
 
-  <link rel="canonical" href="https://web.fe.up.pt/~up201304932/hugo/publication/knapsack/">
+  <link rel="canonical" href="https://web.fe.up.pt/~up201304932/hugo/publication/followline/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="SAMAGALHAES">
-  <meta property="og:url" content="https://web.fe.up.pt/~up201304932/hugo/publication/knapsack/">
-  <meta property="og:title" content="Sistema de distribuição de correspondência | SAMAGALHAES">
-  <meta property="og:description" content="Tendo esta análise em mente, pretendemos desenvolver um projeto que nos permita obter uma solução ativa para um problema SAD. Consideramos para análise um problema típico de distribuição de correspondência numa estação de correios, que vamos formular na próxima secção.">
+  <meta property="og:url" content="https://web.fe.up.pt/~up201304932/hugo/publication/followline/">
+  <meta property="og:title" content="Implementação de rotinas básicas de controlo do movimento de um robô (FollowLine) | SAMAGALHAES">
+  <meta property="og:description" content="No presente trabalho prático pretende-se que um robot móvel de tração diferencial seja capaz de seguir um segmento de reta, definido pelos seus pontos inicial e final, e que termine o seu movimento no ponto final estabelecido, com uma orientação equivalente à da reta. Para o efeito, em primeiro lugar, o objetivo consiste em aproximar o veículo ao ponto mais próximo da linha definida e, quando suficientemente próximo desta, iniciar o seu seguimento em sentido conveniente para atingir o ponto final. Posto isto, impõe-se a necessidade de implementação de dois controladores distintos: controlador para aproximação (Controlador A) e, posteriormente, comutação para controlador de seguimento (Controlador B). Estes controladores podem ser assumidos como dois estados distintos de uma máquina de estados, em que as transições são determinadas em função da distância ao ponto mais próximo da reta. A sua supervisão é conseguida com a implementação de um terceiro procedimento responsável pela comutação entre estados (FollowLine), estando, por isso, num nível hierarquicamente superior. Como premissa adicional do problema considera-se que o robot está sempre localizado entre os limites impostos pelos extremos do segmento.">
   <meta property="og:locale" content="pt-pt">
   
-  <meta property="article:published_time" content="2017-06-02T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2017-11-07T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2017-06-02T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2017-11-07T00:00:00&#43;00:00">
   
 
-  <title>Sistema de distribuição de correspondência | SAMAGALHAES</title>
+  
+
+  <title>Implementação de rotinas básicas de controlo do movimento de um robô (FollowLine) | SAMAGALHAES</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -208,10 +208,10 @@
 
 
   <div class="container pub-title">
-    <h1 itemprop="name">Sistema de distribuição de correspondência</h1>
+    <h1 itemprop="name">Implementação de rotinas básicas de controlo do movimento de um robô (FollowLine)</h1>
     <span class="pub-authors" itemprop="author">
       
-      Carlos Almeida, Sandro Magalhães, Sérgio Fernandes, Telmo Costa, Tiago Mendonça
+      Sandro Magalhães, Tiago Mendonça
       
     </span>
     <span class="pull-right">
@@ -220,35 +220,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Sistema%20de%20distribui%c3%a7%c3%a3o%20de%20correspond%c3%aancia&amp;url=https%3a%2f%2fweb.fe.up.pt%2f~up201304932%2fhugo%2fpublication%2fknapsack%2f"
+         href="https://twitter.com/intent/tweet?text=Implementa%c3%a7%c3%a3o%20de%20rotinas%20b%c3%a1sicas%20de%20controlo%20do%20movimento%20de%20um%20rob%c3%b4%20%28FollowLine%29&amp;url=https%3a%2f%2fweb.fe.up.pt%2f~up201304932%2fhugo%2fpublication%2ffollowline%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fweb.fe.up.pt%2f~up201304932%2fhugo%2fpublication%2fknapsack%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fweb.fe.up.pt%2f~up201304932%2fhugo%2fpublication%2ffollowline%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fweb.fe.up.pt%2f~up201304932%2fhugo%2fpublication%2fknapsack%2f&amp;title=Sistema%20de%20distribui%c3%a7%c3%a3o%20de%20correspond%c3%aancia"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fweb.fe.up.pt%2f~up201304932%2fhugo%2fpublication%2ffollowline%2f&amp;title=Implementa%c3%a7%c3%a3o%20de%20rotinas%20b%c3%a1sicas%20de%20controlo%20do%20movimento%20de%20um%20rob%c3%b4%20%28FollowLine%29"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fweb.fe.up.pt%2f~up201304932%2fhugo%2fpublication%2fknapsack%2f&amp;title=Sistema%20de%20distribui%c3%a7%c3%a3o%20de%20correspond%c3%aancia"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fweb.fe.up.pt%2f~up201304932%2fhugo%2fpublication%2ffollowline%2f&amp;title=Implementa%c3%a7%c3%a3o%20de%20rotinas%20b%c3%a1sicas%20de%20controlo%20do%20movimento%20de%20um%20rob%c3%b4%20%28FollowLine%29"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Sistema%20de%20distribui%c3%a7%c3%a3o%20de%20correspond%c3%aancia&amp;body=https%3a%2f%2fweb.fe.up.pt%2f~up201304932%2fhugo%2fpublication%2fknapsack%2f">
+         href="mailto:?subject=Implementa%c3%a7%c3%a3o%20de%20rotinas%20b%c3%a1sicas%20de%20controlo%20do%20movimento%20de%20um%20rob%c3%b4%20%28FollowLine%29&amp;body=https%3a%2f%2fweb.fe.up.pt%2f~up201304932%2fhugo%2fpublication%2ffollowline%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -265,7 +265,7 @@
 
     
     <h3>Resumo</h3>
-    <p class="pub-abstract" itemprop="text">Tendo esta análise em mente, pretendemos desenvolver um projeto que nos permita obter uma solução ativa para um problema SAD. Consideramos para análise um problema típico de distribuição de correspondência numa estação de correios, que vamos formular na próxima secção.</p>
+    <p class="pub-abstract" itemprop="text">No presente trabalho prático pretende-se que um robot móvel de tração diferencial seja capaz de seguir um segmento de reta, definido pelos seus pontos inicial e final, e que termine o seu movimento no ponto final estabelecido, com uma orientação equivalente à da reta. Para o efeito, em primeiro lugar, o objetivo consiste em aproximar o veículo ao ponto mais próximo da linha definida e, quando suficientemente próximo desta, iniciar o seu seguimento em sentido conveniente para atingir o ponto final. Posto isto, impõe-se a necessidade de implementação de dois controladores distintos: controlador para aproximação (Controlador A) e, posteriormente, comutação para controlador de seguimento (Controlador B). Estes controladores podem ser assumidos como dois estados distintos de uma máquina de estados, em que as transições são determinadas em função da distância ao ponto mais próximo da reta. A sua supervisão é conseguida com a implementação de um terceiro procedimento responsável pela comutação entre estados (FollowLine), estando, por isso, num nível hierarquicamente superior. Como premissa adicional do problema considera-se que o robot está sempre localizado entre os limites impostos pelos extremos do segmento.</p>
     
 
     
@@ -294,7 +294,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publicação</div>
-          <div class="col-xs-12 col-sm-9">In <em>Sistemas de Apoio à Decisão</em>, FEUP.</div>
+          <div class="col-xs-12 col-sm-9">In <em>Sistemas Robóticos Autónomos</em>, FEUP.</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -308,7 +308,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Data</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            June, 2017
+            November, 2017
           </div>
         </div>
       </div>
@@ -328,8 +328,16 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://web.fe.up.pt/~up201304932/hugo/files/pt/feup/sade/report_knapsack.pdf" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://web.fe.up.pt/~up201304932/hugo/files/pt/feup/srau/TP2/TP2b/report_tp22_srau.pdf" target="_blank" rel="noopener">
   PDF
+</a>
+
+
+
+
+
+<a class="btn btn-primary btn-outline" href="https://web.fe.up.pt/~up201304932/hugo/files/pt/feup/srau/TP2/TP2b/FollowLine.spas.pas" target="_blank" rel="noopener">
+  Código
 </a>
 
 
@@ -341,12 +349,12 @@
 
 
 
-
-
-
-
-<a class="btn btn-primary btn-outline" href="https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=385646" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=401695" target="_blank" rel="noopener">
   Sigarra FEUP
+</a>
+
+<a class="btn btn-primary btn-outline" href="https://paginas.fe.up.pt/~paco/wiki/index.php?n=Main.SimTwo" target="_blank" rel="noopener">
+  SimTwo
 </a>
 
 
@@ -372,12 +380,12 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://web.fe.up.pt/~up201304932/hugo/publication/joint-motor-control/"><span
-      aria-hidden="true">&larr;</span> Joint motor control</a></li>
+    <li class="previous"><a href="https://web.fe.up.pt/~up201304932/hugo/publication/gotoxytheta/"><span
+      aria-hidden="true">&larr;</span> Implementação de rotinas básicas de controlo do movimento de um robô (GoToXYTheta)</a></li>
     
 
     
-    <li class="next"><a href="https://web.fe.up.pt/~up201304932/hugo/publication/odometria/">Odometria e equações de movimento de um robô <span
+    <li class="next"><a href="https://web.fe.up.pt/~up201304932/hugo/publication/robolego/">Localização de Robôs Móveis Baseada em Marcos <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
