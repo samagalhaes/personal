@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:400,700');
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+#profile h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+}
+
+.navbar-default {
+    background-color: #2d4471;
+    color: #fefefe;
+}
+
+.navbar-brand, .navbar-brand:hover {
+    color: #fefefe;    
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > a:focus, .navbar-default .navbar-nav > a:hover {
+    color: #fefefe;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fefefe;
+    font-weight: 900;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #fefefe;
+    text-decoration: underline;
+}
+
+.navbar-default button {
+    background-color: #fefefe;
+    height: 2.25em;
+    width: 2.25em;
+    border-radius: 3em;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fefefe;
+}
+
+a, a:hover, a:focus {
+    color: #3d5fa3;
+}
